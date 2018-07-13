@@ -21,7 +21,7 @@ build:
     - pip install -vvv numpy
     - python -c "import numpy; print(numpy.__version__)"
     - pip install pytest
-    - python -c "import numpy; numpy.test(verbose=True)"
+    - python -c "import numpy; numpy.test()"
 
 integrations:
 
