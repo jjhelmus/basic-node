@@ -13,11 +13,6 @@ python:
 
 build:
 
-  pre_ci_boot:
-    image_name: centos/aarch64
-    image_tag: 7
-    pull: true
-  # http://docs.shippable.com/ci/shippableyml/#ci
   ci:
     - cat /etc/issue
     - lscpu
