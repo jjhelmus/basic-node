@@ -23,10 +23,6 @@ build:
     - lscpu
     - python -V
     - pip --version
-    - pip install -vvv numpy
-    - python -c "import numpy; print(numpy.__version__)"
-    - pip install pytest
-    - python -c "import numpy; numpy.test()"
 
 integrations:
 
